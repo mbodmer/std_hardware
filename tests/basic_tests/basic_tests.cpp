@@ -5,6 +5,8 @@
 
 #include <iostream>
 
+#include <hardware>
+
 int main() {
   std::cout << "startup" << std::endl;
   return 0;

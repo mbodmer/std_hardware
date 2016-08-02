@@ -13,6 +13,14 @@ target_include_directories(basic_tests
   SYSTEM PUBLIC ${CMAKE_SOURCE_DIR}/include
 )
 
+set_target_properties(basic_tests
+  PROPERTIES CXX_STANDARD 14
+)
+
+#target_compile_features(basic_tests
+#  PRIVATE cxx_constexpr
+#)
+
 #target_link_libraries(basic_tests
 
 #)
