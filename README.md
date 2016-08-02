@@ -1,6 +1,6 @@
 # std::hardware
 
-This is my exploration of the not so well known std::haredware namespace
+This is my exploration of the not so well known std::hardware namespace
 defined in TR18015. The Idea is to use this approach to model microcontroller
 registers and periphery.
 
